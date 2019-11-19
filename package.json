@@ -1,0 +1,22 @@
+{
+  "name": "baclava",
+  "version": "1.1.0",
+  "description": "Baclava with JS and Eris",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "run": "tsc ./src/index.ts --outDir ./dist && node dist/index.js"
+  },
+  "author": "HotLava03",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^12.7.8",
+    "eris": "^0.10.1",
+    "moment": "^2.24.0",
+    "ts": "^0.2.2",
+    "typescript": "^3.6.4"
+  },
+  "devDependencies": {
+    "ts-node": "^8.4.1"
+  }
+}
